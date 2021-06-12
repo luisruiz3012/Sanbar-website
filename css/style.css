@@ -253,3 +253,54 @@ footer a {
 .morfosis {
   font-size: 1.2rem;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 15px;
+}
+
+.about_info {
+  min-height: 25vh;
+  background-image: url("../imagenes/pexels-photomix-company-518245.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.about_page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.about_images {
+  display: flex;
+  /* margin: 40px; */
+}
+
+.about_image-big {
+  margin-bottom: 40px;
+  min-width: 200px;
+  max-width: 650px;
+}
+
+@media only screen and (min-width: 992px) {
+  .about_image-big {
+    margin-bottom: 40px;
+    min-width: 200px;
+    max-width: 600px;
+  }
+
+  .about_images {
+    display: flex;
+  }
+}
